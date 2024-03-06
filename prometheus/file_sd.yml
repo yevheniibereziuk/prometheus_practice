@@ -1,0 +1,31 @@
+- targets:
+  - localhost:9100
+  labels:
+    team: "development"
+    region: "Mumbai"
+
+- targets:
+  - localhost:9100
+  labels:
+    team: "monitoring"
+    region: "Kharkiv"
+
+- targets:
+  - localhost2:9100
+  labels:
+    team: "monitoring"
+    region: "Kharkiv"
+
+
+- targets:
+  - localhost3:9100
+  labels:
+    team: "l1"
+    region: "Odesa"
+
+
+- targets:
+  - localhost4:9100
+  labels:
+    team: "l2"
+    region: "Sumy"
