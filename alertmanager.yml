@@ -90,14 +90,14 @@ receivers:
 - name: admin
   slack_configs:
   - channel: '#prometheus'
-    api_url: 'https://hooks.slack.com/services/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'
+    api_url: 'https://hooks.slack.com/*
     title: 'admin is Down'
     text: "test notification"
 
 - name: ss-admin
   slack_configs:
   - channel: '#prometheus'
-    api_url: 'https://hooks.slack.com/services/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'
+    api_url: 'https://hooks.slack.com/services/*'
     title: 'ss-admin is Down'
     text: "test notification"
 

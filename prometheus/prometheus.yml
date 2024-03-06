@@ -100,8 +100,8 @@ scrape_configs:
 
   - job_name: 'ec2'
     ec2_sd_configs:
-      - access_key: AKIAWUKVOSMVIN2H6VMK
-        secret_key: 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
+      - access_key: ****
+        secret_key: ****
         region: eu-central-1
     relabel_configs:
       - source_labels: [__meta_ec2_public_ip]
